@@ -12,6 +12,16 @@ class FirstPage extends StatelessWidget {
       body: const Center(
         child: Text('test'),
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+      ),
+      bottomNavigationBar: BottomNavigationBar(
+        items: const [
+          BottomNavigationBarItem(icon: Icon(Icons.add), label: 'test'),
+          BottomNavigationBarItem(icon: Icon(Icons.add), label: 'test'),
+          BottomNavigationBarItem(icon: Icon(Icons.add), label: 'test'),
+        ],
+      ),
     );
   }
 }
