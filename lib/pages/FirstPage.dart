@@ -8,6 +8,7 @@ class FirstPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('test'),
+        backgroundColor: Colors.redAccent,
       ),
       body: const Center(
         child: Text('test'),
